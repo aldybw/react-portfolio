@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styled from "styled-components";
 
 export const DropDownContainer = styled.div`
@@ -26,7 +27,7 @@ export const DropDownContainer = styled.div`
     top: 24px;
   }
 `;
-export const DropDownItem = styled.a`
+export const DropDownItem = styled(Link)`
   width: 100%;
   display: flex;
   align-items: flex-start;

@@ -9,7 +9,7 @@ import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
-  <Section row nonpadding>
+  <Section row nopadding>
     <LeftSection>
       <SectionTitle>
         Welcome To <br />

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styled from "styled-components";
 
 export const Img = styled.img`
@@ -82,7 +83,7 @@ export const UtilityList = styled.ul`
   margin: 2.5rem 0;
 `;
 
-export const ExternalLinks = styled.a`
+export const ExternalLinks = styled(Link)`
   color: #d4c0c0;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
