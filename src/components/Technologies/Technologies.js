@@ -26,7 +26,9 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
+        <picture>
+          <DiReact size="3rem" />
+        </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
@@ -36,7 +38,9 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <picture>
+          <DiFirebase size="3rem" />
+        </picture>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
@@ -46,7 +50,9 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem" />
+        <picture>
+          <DiZend size="3rem" />
+        </picture>
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
