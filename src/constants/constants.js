@@ -1,28 +1,28 @@
 export const projects = [
   {
-    title: "MERN Memories",
+    title: "Laracamp - Website",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "Built website with PHP Laravel Framework. Created templating with Laravel Blade. Implemented relational database with MySQL. Created CMS Admin Panel. Utilized Laravel Seeder and Laravel 8 Socialite Login with Google Account.",
+    image: "/images/laracamp.png",
+    tags: ["Laravel", "MySQL", "Midtrans"],
+    source: "https://github.com/aldybw/laracamp",
+    visit: "https://github.com/aldybw/laracamp",
     id: 0,
   },
   {
-    title: "E-Commerce",
+    title: "Bookshelf Project - API",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: "/images/2.png",
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "Created REST API for manages books library with Node JS Hapi Framework. Utilized GET, POST, PUT, and DELETE HTTP methods. Implemented with JSON to show data.",
+    image: "/images/bookshelf-architecture.png",
+    tags: ["Node JS", "Hapi"],
+    source: "https://github.com/aldybw/books-app-back-end",
+    visit: "https://github.com/aldybw/books-app-back-end",
     id: 1,
   },
   {
-    title: "WebRTC App",
+    title: "Staycation - Website",
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+      "Built frontend website with React JS and implemented atomic design. Created API with Express JS framework. Implemented MongoDB as a database. Created CMS Admin Panel. Utilized get, post, put, and delete HTTP methods. Used Axios library to fetch API used in frontend React JS. Implemented with JSON to show data.",
     image: "/images/3.jpg",
     tags: ["React", "WebRTC"],
     source: "https://google.com",
