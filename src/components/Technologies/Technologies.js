@@ -14,6 +14,49 @@ import {
   ListTitle,
 } from "./TechnologiesStyles";
 
-const Technologies = () => <div>Technologies</div>;
+const Technologies = () => (
+  <Section id="tech">
+    <SectionDivider />
+    <br />
+    <SectionTitle>Technologies</SectionTitle>
+    <SectionText>
+      I've experienced with a range of technologies in the web development
+      world. From Back-End to Front-End. But I've experienced more in Back-End
+      Development.
+    </SectionText>
+    <List>
+      <ListItem>
+        <DiReact size="3rem" />
+        <ListContainer>
+          <ListTitle>Front-End</ListTitle>
+          <ListParagraph>
+            Experienced with <br />
+            React JS
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size="3rem" />
+        <ListContainer>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>
+            Experienced with <br />
+            Express JS, Laravel, CodeIgniter, Golang, SpringBoot
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiZend size="3rem" />
+        <ListContainer>
+          <ListTitle>UI/UX</ListTitle>
+          <ListParagraph>
+            Experienced with <br />
+            tools like Figma
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
+  </Section>
+);
 
 export default Technologies;
