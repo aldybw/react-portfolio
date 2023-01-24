@@ -20,7 +20,12 @@ const Hero = (props) => (
         Development to provide REST API and sometimes I'm also doing Frontend
         Development especially for Website Application.
       </SectionText>
-      <Button onClick={() => (window.location = "https://google.com")}>
+      <Button
+        onClick={() =>
+          (window.location =
+            "https://www.linkedin.com/in/aldycky-bagus-witjaksana/")
+        }
+      >
         Learn More
       </Button>
     </LeftSection>
