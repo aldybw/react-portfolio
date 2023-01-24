@@ -1,5 +1,5 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiFirebase, DiReact, DiAndroid } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -27,37 +27,37 @@ const Technologies = () => (
     <List>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experienced with <br />
-            React JS
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experienced with <br />
-            Express JS, Laravel, CodeIgniter, Golang, SpringBoot
+            Express JS, Laravel, CodeIgniter, Golang, and SpringBoot
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Web Front-End</ListTitle>
           <ListParagraph>
             Experienced with <br />
-            tools like Figma
+            React JS and Vue JS
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiAndroid size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Mobile Develoment</ListTitle>
+          <ListParagraph>
+            Experienced with <br />
+            Java and React Native
           </ListParagraph>
         </ListContainer>
       </ListItem>

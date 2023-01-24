@@ -42,9 +42,15 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  { year: 2019, text: "Started college in informatics engineering major" },
+  { year: 2020, text: "Interested and started learning in web programming" },
+  {
+    year: 2021,
+    text: "Started to created some portfolios of web development projects",
+  },
+  {
+    year: 2022,
+    text: "Participated in Kampus Merdeka Bangkit Program and Internship at Vocasia",
+  },
+  { year: 2023, text: "Finishing my study and always learning..." },
 ];
