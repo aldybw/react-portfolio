@@ -19,26 +19,16 @@ export const projects = [
     visit: "https://github.com/aldybw/books-app-back-end",
     id: 1,
   },
-  {
-    title: "Staycation - Website",
-    description:
-      "Built frontend website with React JS and implemented atomic design. Created API with Express JS framework. Implemented MongoDB as a database. Created CMS Admin Panel. Utilized get, post, put, and delete HTTP methods. Used Axios library to fetch API used in frontend React JS. Implemented with JSON to show data.",
-    image: "/images/3.jpg",
-    tags: ["React", "WebRTC"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 2,
-  },
-  {
-    title: "Unichat",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: "/images/4.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 3,
-  },
+  // {
+  //   title: "Staycation - Website",
+  //   description:
+  //     "Built frontend website with React JS and implemented atomic design. Created API with Express JS framework. Implemented MongoDB as a database. Created CMS Admin Panel. Utilized get, post, put, and delete HTTP methods. Used Axios library to fetch API used in frontend React JS. Implemented with JSON to show data.",
+  //   image: "/images/3.jpg",
+  //   tags: ["React", "WebRTC"],
+  //   source: "https://google.com",
+  //   visit: "https://google.com",
+  //   id: 2,
+  // },
 ];
 
 export const TimeLineData = [
