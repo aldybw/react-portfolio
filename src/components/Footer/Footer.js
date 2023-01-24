@@ -15,7 +15,38 @@ import {
 } from "./FooterStyles";
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <FooterWrapper>
+      <LinkList>
+        <LinkColumn>
+          <LinkTitle>Call</LinkTitle>
+          <LinkItem href="tel:+62 813-8456-7918">+62 813-8456-7918</LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Email</LinkTitle>
+          <LinkItem href="mailto:bagusaldycky@gmail.com">
+            bagusaldycky@gmail.com
+          </LinkItem>
+        </LinkColumn>
+      </LinkList>
+      <SocialIconsContainer>
+        <CompanyContainer>
+          <Slogan>Innovating one project at a time</Slogan>
+        </CompanyContainer>
+        <SocialContainer>
+          <SocialIcons href="https://github.com">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://linkedin.com">
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://instagram.com">
+            <AiFillInstagram size="3rem" />
+          </SocialIcons>
+        </SocialContainer>
+      </SocialIconsContainer>
+    </FooterWrapper>
+  );
 };
 
 export default Footer;
